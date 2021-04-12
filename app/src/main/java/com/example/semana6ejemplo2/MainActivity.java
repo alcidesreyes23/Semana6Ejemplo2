@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         fragmentUno = new FragmentUno();
         fragmentDos = new FragmentDos();
-
+        // Prueba de Push and Commit
         getSupportFragmentManager().
                 beginTransaction().
                 add(R.id.frlContenedor,fragmentUno).
